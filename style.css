@@ -14,6 +14,7 @@ html {
     width: 100%;
     height: 100%;
     font-family: product sans;
+    overflow-x: hidden;
 
 }
 
@@ -78,7 +79,7 @@ nav button img {
     position: relative;
     background: linear-gradient(309deg, rgba(237, 146, 36, 1) 0%, rgba(253, 29, 29, 1) 44%, rgba(252, 176, 69, 1) 100%);
     color: #ffffff;
-    overflow-x: hidden;
+
 }
 
 .landing-div h1 {
@@ -93,8 +94,8 @@ nav button img {
 
 .landing-div #fanta-can {
     position: absolute;
-    width: 30%;
-    z-index: 5;
+    width: 32%;
+    z-index: 10;
 }
 
 #leaf1 {
@@ -108,7 +109,7 @@ nav button img {
 
 #leaf2 {
     position: absolute;
-    right: -5%;
+    right: 0%;
     top: 0;
     width: 20%;
 }
